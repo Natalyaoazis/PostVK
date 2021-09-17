@@ -8,14 +8,14 @@ public class PostManager {
     public Post[] generateForFeed() {
         return null;
     }
-    private Comments[] comments;
+    private CommentsInfo[] comments;
 
-    public Comments[] generateForComments() {
+    public CommentsInfo[] generateForComments() {
         return null;
     }
-    private Likes[] likes;
+    private LikesInfo[] likes;
 
-    public Likes[] generateForLikes() {
+    public LikesInfo[] generateForLikes() {
         return null;
     }
     private Repost[] reposts;
