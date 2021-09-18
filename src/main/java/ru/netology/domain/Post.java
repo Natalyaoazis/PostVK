@@ -23,6 +23,13 @@ public class Post {
     private boolean markedAsAds;
     private boolean isFavorite;
     private int postPonedId;
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private Donut donut;
+    private Geo geo;
+    private LikesInfo likesInfo;
+    private Repost repost;
+    private ShowViews showViews;
 
     public int getId() {
         return id;
@@ -104,6 +111,34 @@ public class Post {
         return postPonedId;
     }
 
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public Copyright getCopyright() {
+        return copyright;
+    }
+
+    public Donut getDonut() {
+        return donut;
+    }
+
+    public Geo getGeo() {
+        return geo;
+    }
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public Repost getRepost() {
+        return repost;
+    }
+
+    public ShowViews getShowViews() {
+        return showViews;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -182,5 +217,33 @@ public class Post {
 
     public void setPostPonedId(int postPonedId) {
         this.postPonedId = postPonedId;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public void setCopyright(Copyright copyright) {
+        this.copyright = copyright;
+    }
+
+    public void setDonut(Donut donut) {
+        this.donut = donut;
+    }
+
+    public void setGeo(Geo geo) {
+        this.geo = geo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public void setRepost(Repost repost) {
+        this.repost = repost;
+    }
+
+    public void setShowViews(ShowViews showViews) {
+        this.showViews = showViews;
     }
 }
